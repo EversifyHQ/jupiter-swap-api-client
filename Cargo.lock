@@ -480,12 +480,12 @@ dependencies = [
 
 [[package]]
 name = "borsh"
-version = "0.10.3"
+version = "0.10.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4114279215a005bc675e386011e594e1d9b800918cea18fcadadcce864a2046b"
+checksum = "115e54d64eb62cdebad391c19efc9dce4981c690c85a33a12199d99bb9546fee"
 dependencies = [
  "borsh-derive 0.10.3",
- "hashbrown 0.13.2",
+ "hashbrown 0.12.3",
 ]
 
 [[package]]
@@ -3548,7 +3548,7 @@ version = "2.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7c55b83c305eac62095b6f24ea2ae729f17de47e5a4e866ee4ddd0dc501b351e"
 dependencies = [
- "borsh 0.10.3",
+ "borsh 0.10.4",
  "borsh 1.5.1",
 ]
 
@@ -3925,7 +3925,7 @@ dependencies = [
  "bincode",
  "bitflags 2.6.0",
  "blake3",
- "borsh 0.10.3",
+ "borsh 0.10.4",
  "borsh 1.5.1",
  "bs58",
  "bv",
@@ -4077,7 +4077,7 @@ version = "2.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6dba2b19db8b73ab96b309b6d2a9f26386e45e2af3618a27b92389da9a3df1f1"
 dependencies = [
- "borsh 0.10.3",
+ "borsh 0.10.4",
  "borsh 1.5.1",
  "bs58",
  "bytemuck",
